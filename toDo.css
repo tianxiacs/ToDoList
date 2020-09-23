@@ -1,0 +1,113 @@
+body {
+    background-color: #b0cac7;
+    color: #f7d6bf;
+    font-size: 20px;
+}
+h1 {
+    color: #005086;
+}
+p {
+    margin: 0;
+}
+#section1 {
+    margin-top: 50px;
+    color: #318fb5;
+    font-size: 1.5em;
+    text-align: center;
+}
+#section2 {
+    margin-top: 40px;
+}
+#toDoDiv {
+    width: 300px;
+    margin: auto;
+}
+#itemDiv {
+    text-align: left;
+}
+#toDoTitleDiv {
+    background-color: #005086;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 40px;
+    display:flex;
+    align-items:center;
+}
+#plusIcon {
+    margin-left: 120px;
+}
+#inputDiv {
+    background-color: #cdb30c;
+    padding-left: 20px;
+    display:flex;
+    align-items:center;
+    height: 40px;
+    transition: 0.3s linear;
+}
+input {
+    background-color: #cdb30c;
+    border: none;
+    height: 80%;
+    font-size: 20px;
+    color: #f7d6bf;
+    outline: none;
+}
+.hidden {
+    height: 0;
+    opacity: 0;
+    transition: 0.3s linear;
+}
+.displayNone {
+    display: none;
+}
+.newDivStyle {
+    height: 40px;
+    padding-left: 0;
+    display:flex;
+    align-items:center;
+    transition: 0.3s linear;
+}
+.clickThrough {
+    text-decoration: line-through;
+}
+.newButtonStyle {
+    background-color: transparent;
+    color: #f7d6bf;
+    margin-right: 0;
+    border: transparent;
+    background-color: #ed6663;
+    height: 100%;
+    font-size: inherit;
+    outline: none;
+    width: 0;
+    opacity: 0;
+    transition: 0.3s linear;
+}
+.buttonShow {
+    width: 50px;
+    opacity: 1.0;
+    transition: 0.3s linear;
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color: #f7d6bf;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #f7d6bf;
+    opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #f7d6bf;
+    opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #f7d6bf;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: #f7d6bf;
+}
+
+::placeholder { /* Most modern browsers support this now. */
+    color: #f7d6bf;
+}
